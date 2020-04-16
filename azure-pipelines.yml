@@ -13,7 +13,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'armpipeline-srv-conn'
+    azureResourceManagerConnection: 'armpipeline-srv-conn2'
     subscriptionId: 'a3dca8c1-9ae6-4434-8049-eb402d70ec40'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'arm-rg'
