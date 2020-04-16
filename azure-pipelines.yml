@@ -18,7 +18,7 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'arm-rg'
     location: 'North Europe'
-    templateLocation: 'URL of the file'
+    templateLocation: 'Linked artifact'
     csmFileLink: 'CreateWebApp/azuredeploy.json'
     overrideParameters: '-projectName arm-prj -linkedTemplateUri https://raw.githubusercontent.com/bkarrlander/armpipeline-repo/master/CreateWebApp/linkedStorageAccount.json?token=ACT5GTTQU6BIKL3LYENBZGK6TBVF2'
     deploymentMode: 'Incremental'
