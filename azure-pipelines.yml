@@ -20,7 +20,7 @@ steps:
     location: 'North Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName arm-prj -linkedTemplateUri https://raw.githubusercontent.com/bkarrlander/armpipeline-repo/master/CreateWebApp/linkedStorageAccount.json?token=ACT5GTSBQFVP2ZCEP2MISNK6TBXR4'
+    overrideParameters: '-projectName arm-prj -linkedTemplateUri https://raw.githubusercontent.com/bkarrlander/armpipeline-repo/master/CreateWebApp/linkedStorageAccount.json?token=ACT5GTSRUPV6MOD6W6HOOQ26TBZFK'
     deploymentMode: 'Incremental'
     deploymentName: 'ArmDeployPipelineTemplate'
 
